@@ -1,5 +1,5 @@
 /* =========================================================
-   NATIVEMUSIC — Disponibilidad de Booking
+   SAEENZ | UNDERSWITCH — Disponibilidad de Booking
    =========================================================
    CÓMO ACTUALIZAR LAS FECHAS RESERVADAS:
    Editá el archivo "bookings.json" en este mismo repo.
