@@ -41,11 +41,21 @@ body {
   text-align: center;
 }
 
+.profile-photo {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--border-subtle);
+  margin: 0 0 18px;
+  display: inline-block;
+}
+
 .logo {
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 1.7rem;
-  letter-spacing: 0.04em;
+  font-size: 1.4rem;
+  letter-spacing: 0.03em;
   margin: 0 0 8px;
 }
 
