@@ -57,7 +57,7 @@
 
     <form id="bookingForm" action="https://formspree.io/f/TU_ENDPOINT_AQUI" method="POST">
       <label for="name">Nombre / Nombre del evento</label>
-      <input type="text" id="name" name="name" required placeholder="Ej: Sofía Ramírez — Boda Ramírez">
+      <input type="text" id="name" name="name" required placeholder="Ej: Sofía Ramírez — Evento privado">
 
       <label for="date">Fecha solicitada</label>
       <input type="date" id="date" name="date" required>
@@ -68,11 +68,9 @@
       <label for="eventType">Tipo de evento</label>
       <select id="eventType" name="eventType" required>
         <option value="" disabled selected>Seleccioná una opción</option>
-        <option value="boda">Boda</option>
-        <option value="concierto">Concierto</option>
+        <option value="festival">Festival</option>
         <option value="club">Club / Discoteca</option>
         <option value="privado">Evento privado</option>
-        <option value="corporativo">Evento corporativo</option>
         <option value="otro">Otro</option>
       </select>
 
